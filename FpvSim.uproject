@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "FPV quad simulator (acro), physics in C++",
+	"Modules": [
+		{
+			"Name": "FpvSim",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [ "Engine" ]
+		}
+	],
+	"Plugins": [
+		{ "Name": "ProceduralMeshComponent", "Enabled": true },
+		{ "Name": "CesiumForUnreal", "Enabled": true }
+	],
+	"TargetPlatforms": [ "Windows" ]
+}

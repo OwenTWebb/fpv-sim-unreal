@@ -1,0 +1,12 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+Plugins/CesiumForUnreal/
+cesium-request-cache.sqlite*
+# your own setup, never committed
+cesium_ion_token.txt
+fpv_radio.json
+fpv_settings.json
